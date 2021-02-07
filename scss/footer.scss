@@ -1,0 +1,111 @@
+.Footer{
+  padding-top: 20px;
+  padding-bottom: 53px;
+  background-color: #F7F9FB;
+  .container{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__logo{
+    padding-top: 10px;
+    cursor: pointer;
+    .site__name{
+      font-size: 14px;
+      font-weight: bold;
+      color: #181818;
+    }
+  }
+  &__navigation{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex: 0 0 41%;
+
+    .navigation__title{
+      font-size: 12px;
+      font-weight: bold;
+      font-family: $font-family;
+      margin-bottom: 30px;
+    }
+    .navigation__wrap{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: #181818;
+      font-size: 12px;
+
+      .first__nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 86px;
+      }
+    }
+  }
+  &__access{
+    padding-top: 15px;
+    .access__title{
+      color: #181818;
+      font-size: 12px;
+      font-weight: bold;
+      font-family: $font-family;
+      margin-bottom: 23px;
+    }
+    .access__button{
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+      background: transparent;
+      outline: none;
+      padding-left: 15px;
+      padding-top: 11px;
+      padding-bottom: 10px;
+      color: $first-color;
+      font-size: 12px;
+      font-family: $font-family;
+      font-weight: bold;
+      text-transform: uppercase;
+      cursor: pointer;
+      border: 1px solid $first-color;
+      transition: .5s all ease-in-out;
+      border-radius: 4px;
+      &:hover{
+        background-color: $first-color;
+        color: #ffffff;
+      }
+
+      img{
+        display: inline-block;
+        margin-left: 60px;
+        margin-right: 8px;
+      }
+    }
+  }
+  &__language{
+    padding-top: 15px;
+    .language__title{
+      margin-bottom: 23px;
+      color: #181818;
+      font-size: 12px;
+      font-weight: bold;
+      font-family: $font-family;
+    }
+    .language__select{
+      width: 100%;
+      background-color: #fff;
+      color: #000;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      appearance: none;
+      font-size: 12px;
+      text-transform: uppercase;
+      width: 270px;
+      padding-left: 15px;
+      border: 1px solid #F0F0F0;
+      border-radius: 4px;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+body{
+  box-sizing: border-box;
+  font-family: $font-family;
+  background-color: $body-background;
+}
+.container{
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+  color: $text-color;
+}
+.blue{
+  color: $first-color;
+}
+
+.text{
+  font-family: $font-family;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.social{
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 30px;
+  border-right: 1px solid #f4f4f4;
+  cursor: pointer;
+}
+.mb{
+  margin-bottom: 20px;
+}
